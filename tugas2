@@ -1,0 +1,16 @@
+
+nilai = int(input("Masukkan nilai ujian anda (0-100): "))
+
+if 90 <= nilai <= 100:
+    print("Feedback: Sangat Baik")
+elif 80 <= nilai <= 89:
+    print("Feedback: Baik")
+elif 70 <= nilai <= 79:
+    print("Feedback: Cukup")
+elif 60 <= nilai <= 69:
+    print("Feedback: Kurang")
+elif nilai < 60:
+    print("Feedback: Sangat Kurang")
+else:
+    print("Nilai yang dimasukkan tidak valid.")
+    

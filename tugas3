@@ -1,0 +1,14 @@
+
+usia = int(input("Masukkan usia anda: "))
+tekanan_darah = int(input("Masukkan tekanan darah anda: "))
+
+if usia >= 60:
+    if tekanan_darah > 140:
+        print("Status Kesehatan: Tinggi")
+    else:
+        print("Status Kesehatan: Normal")
+else:
+    if tekanan_darah > 130:
+        print("Status Kesehatan: Tinggi")
+    else:
+        print("Status Kesehatan: Normal")
